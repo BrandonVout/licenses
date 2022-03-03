@@ -20,6 +20,8 @@ LGPL2="$LOCAL_LICENSE_PATH/lgpl2.1.txt"
 LGPL3="$LOCAL_LICENSE_PATH/lgpl3.txt"
 MIT="$LOCAL_LICENSE_PATH/mit.txt"
 MPL2="$LOCAL_LICENSE_PATH/mpl2.txt"
+OFL="$LOCAL_LICENSE_PATH/ofl1.1.txt"
+OGL="$LOCAL_LICENSE_PATH/ogl1.0a.txt"
 UNLICENSE="$LOCAL_LICENSE_PATH/unlicense.txt"
 
 # copy local licenses to current directory
@@ -45,6 +47,11 @@ alias cp-mit='cp $MIT $DEST_LICENSE'
 alias cp-mpl2='cp $MPL2 $DEST_LICENSE'
 alias cp-mpl='cp $MPL2 $DEST_LICENSE'
 alias cp-moz='cp $MPL2 $DEST_LICENSE'
+alias cp-ofl='cp $OFL $DEST_LICENSE'
+alias cp-ofl1='cp $OFL $DEST_LICENSE'
+alias cp-ogl='cp $OGL $DEST_LICENSE'
+alias cp-ogl1='cp $OGL $DEST_LICENSE'
+alias cp-ogl1a='cp $OGL $DEST_LICENSE'
 alias cp-unlicense='cp $UNLICENSE $DEST_LICENSE'
 alias cp-un='cp $UNLICENSE $DEST_LICENSE'
 
